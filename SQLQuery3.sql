@@ -20,3 +20,31 @@ select * from EmployeeInfo
 SELECT HomeAddress FROM EmployeeInfo
 WHERE HomeAddress <> 'Bitcoin street UK'
 
+
+/* Coverting to UPPER & LOWER CASE*/
+
+SELECT UPPER(EmployeeName) AS EmployeeName FROM EmployeeInfo;
+
+SELECT LOWER(EmployeeName) AS EmployeeName FROM EmployeeInfo;
+
+SELECT UPPER(EmployeeName) AS Uppercase, 
+LOWER(EmployeeName) AS Lowercase, 
+EmployeeName 
+FROM EmployeeInfo;
+
+/* SUBSTRING FUNCTION */
+
+SELECT SUBSTRING(EmployeeName,1,2) FROM EmployeeInfo
+
+/* TOP CLAUSE */
+
+/* This allow you to select the number of rows from the top in the record. */
+
+SELECT * FROM EmployeeInfo
+
+SELECT TOP 5 * FROM EmployeeInfo 
+
+SELECT TOP 5 * FROM EmployeeInfo ORDER BY EmployeeId DESC
+
+
+

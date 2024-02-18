@@ -332,14 +332,14 @@ WHERE EmployeeID = 1012
 
 
 /*
-?? YOU HAVE TO BE VERY CAREFUL WHEN USING THE DELETE COMMAND 
+YOU HAVE TO BE VERY CAREFUL WHEN USING THE DELETE COMMAND 
 BECAUSE WHEN YOU RUN IT, YOU CAN'T GET THE DATA BACK. 
 */
 
 DELETE FROM EmployeeDemograpics02
 WHERE EmployeeID = 1005
 
-/* ?? SO, THE BEST FORMAT IS THIS BELOW */
+/* SO, THE BEST FORMAT IS THIS BELOW */
 
 SELECT*
 FROM EmployeeDemograpics02
@@ -347,7 +347,7 @@ WHERE EmployeeID = 1005   /* This will allow to know the data you are deleting *
 
 
 
-/* ?? CASE STATEMENT */
+/* CASE STATEMENT */
 
 /* A case statement allows you to specify condition and also 
 allows you to specify what you want return when that condition is met. */
